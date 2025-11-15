@@ -46,11 +46,17 @@ body {
 }
 
 .navbar{
-    padding: 7px 30px;
-    margin-top: 24px;
+    padding: 14px 50px;
+    margin-top: 0;           
     border-radius: 12px;
     overflow: hidden;
+    position: fixed;         
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #131313;   
 }
+
 
 .githubButton {
     color: #000;
@@ -81,12 +87,6 @@ body {
     color: #fff;
 }
 
-.header-content p{
-    font-size: 1.2em;
-    font-weight: 300;
-    margin-top: 24px;
-    line-height: 2.1em;
-}
 
 .header-content h1 {
     color: white;
