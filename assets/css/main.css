@@ -6,9 +6,9 @@
 }
 
 body {
-    background: #171a20;
+    background: #131313;
     padding: 0 37px;
-    min-height: 100vh;
+    min-height: 300vh;
 }
 
 .navlist , .nav-container , .nav-container .navlist ul{
@@ -50,22 +50,22 @@ body {
     margin-top: 24px;
     border-radius: 12px;
     overflow: hidden;
-    background-color: #ffffff0f;
 }
 
 .githubButton {
-    color: rgb(211, 211, 211);
+    color: #000;
     font-size: 1.3em ;
     font-weight: 400;
-    background: #242424;
-    padding: 4px 40px;
+    background: #ffffff;
+    padding: 2px 32px;
     border-radius: 7px;
     transition: all 0.4s ease;
     cursor: pointer;
 }
 
 .githubButton:hover{
-    background-color: #393939;
+    background-color: #000000;
+    color: #fff;
 }
 
 .navlist ul li:hover{
